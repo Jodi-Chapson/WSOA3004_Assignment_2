@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    
+
     public float movespeed = 3f;
     public float speedMod = 0.5f;
 
@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
 
     public void Update()
     {
-        if (Input.anyKey)
+        if (Input.GetKey("a") || Input.GetKey("d")|| Input.GetKey("w") || Input.GetKey("s"))
         {
             Move();
         }
