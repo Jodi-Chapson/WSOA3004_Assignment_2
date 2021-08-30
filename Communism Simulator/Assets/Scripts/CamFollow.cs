@@ -13,7 +13,8 @@ public class CamFollow : MonoBehaviour
     [Header("Stats")]
     public Vector3 startPos;
     public float verticalMod = 0.1f;
-   
+
+    public bool canTurn = true;
     public void Start()
     {
         startPos = this.transform.position;
@@ -28,7 +29,10 @@ public class CamFollow : MonoBehaviour
 
             this.transform.position = target;
 
+            
+            }
         }
-    }
+
+    
 
 }
