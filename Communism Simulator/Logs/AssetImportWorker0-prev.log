@@ -15,11 +15,11 @@ C:/Users/Daniel/Downloads/Communism Simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61444
+57257
 Successfully changed project path to: C:/Users/Daniel/Downloads/Communism Simulator
 C:/Users/Daniel/Downloads/Communism Simulator
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 36.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
@@ -36,75 +36,312 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001811 seconds.
+Registered in 0.001795 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 38.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
+- Completed reload, in  1.028 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000714 seconds.
+Registered in 0.000768 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 38.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.812 seconds
+- Completed reload, in  0.813 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2451 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.7 MB.
-System memory in use after: 128.9 MB.
+System memory in use before: 129.1 MB.
+System memory in use after: 129.3 MB.
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2927.
-Total: 1.830900 ms (FindLiveObjects: 0.172100 ms CreateObjectMapping: 0.099100 ms MarkObjects: 1.492700 ms  DeleteObjects: 0.066300 ms)
+Total: 1.915100 ms (FindLiveObjects: 0.182400 ms CreateObjectMapping: 0.089900 ms MarkObjects: 1.573900 ms  DeleteObjects: 0.068200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Art Assets/Terrain_Textures/Leaf_Pile_01.png
-  artifactKey: Guid(3b5078221729fcd47b30f7a3c25670c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Terrain_Textures/Leaf_Pile_01.png using Guid(3b5078221729fcd47b30f7a3c25670c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762453e8562b4bd5ffaa735b274ec62b') in 0.088995 seconds 
+  path: Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Normal.png
+  artifactKey: Guid(5e60542aac4c3ab4facdac50a24a8911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Normal.png using Guid(5e60542aac4c3ab4facdac50a24a8911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac4fcd1a3a805a65fbfcad6ae4b1299') in 0.092076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.438904 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Normal.png
+  artifactKey: Guid(5e60542aac4c3ab4facdac50a24a8911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Normal.png using Guid(5e60542aac4c3ab4facdac50a24a8911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4b7c050b9add6fdf332d376a8f0ab3') in 0.028620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.546310 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Ground_Snow_02_Normal.png
+  artifactKey: Guid(cacb6d000b3ef8c41b3e160c5812b990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Ground_Snow_02_Normal.png using Guid(cacb6d000b3ef8c41b3e160c5812b990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74d022559f2ce82ea059a663ab0a89c') in 0.011274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Normal.png
+  artifactKey: Guid(5e60542aac4c3ab4facdac50a24a8911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Normal.png using Guid(5e60542aac4c3ab4facdac50a24a8911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39abdc485484c1dc189564cc378f66e4') in 0.014238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.324581 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Ground_Snow_02_Normal.png
+  artifactKey: Guid(cacb6d000b3ef8c41b3e160c5812b990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Ground_Snow_02_Normal.png using Guid(cacb6d000b3ef8c41b3e160c5812b990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae439be4e937437c2388c9215a9a125a') in 0.019660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Normal.png
+  artifactKey: Guid(5e60542aac4c3ab4facdac50a24a8911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Normal.png using Guid(5e60542aac4c3ab4facdac50a24a8911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b2a7561f5aa232284a4d11b9b59ea5') in 0.011394 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000800 seconds.
+Registered in 0.001326 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.739 seconds
+- Completed reload, in  0.762 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2343 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.0 MB.
-System memory in use after: 124.2 MB.
+Unloading 2344 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.3 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2947.
-Total: 4.223800 ms (FindLiveObjects: 0.201300 ms CreateObjectMapping: 0.089000 ms MarkObjects: 3.907800 ms  DeleteObjects: 0.024100 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3021.
+Total: 1.987200 ms (FindLiveObjects: 0.200900 ms CreateObjectMapping: 0.121300 ms MarkObjects: 1.646500 ms  DeleteObjects: 0.017800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 982.482833 seconds.
+  Time since last request: 93.934606 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Height.png
+  artifactKey: Guid(166b36c42adbec840b6a5ba12456f452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Height.png using Guid(166b36c42adbec840b6a5ba12456f452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76de8109985fb60b793925f7a557b71b') in 0.031233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 250.654658 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Ground_Barren_01_Normal.png
+  artifactKey: Guid(2d0f96023cb89324ba4c55160a620418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Ground_Barren_01_Normal.png using Guid(2d0f96023cb89324ba4c55160a620418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a80f19d8bc88ba10feef29a06def601') in 0.017357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Ground_Snow_01_Normal.png
+  artifactKey: Guid(9406e25357b87624cb132d1b25b91b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Ground_Snow_01_Normal.png using Guid(9406e25357b87624cb132d1b25b91b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607b3c2e911dbe0dfb72a6ac3a8a34bf') in 0.012813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Snow_Texture_Normal.png
+  artifactKey: Guid(80547c2138ab95e44b133efc70c435bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Snow_Texture_Normal.png using Guid(80547c2138ab95e44b133efc70c435bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b699997d7199e55382259e04ec43d4') in 0.019119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Snow_Texture_Height.png
+  artifactKey: Guid(89b40a8e154f02240860e91a6b08703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Snow_Texture_Height.png using Guid(89b40a8e154f02240860e91a6b08703e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564babafe59fd78b9586c4c66afede3d') in 0.016737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.525679 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Ground_Barren_01_Normal.png
+  artifactKey: Guid(2d0f96023cb89324ba4c55160a620418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Ground_Barren_01_Normal.png using Guid(2d0f96023cb89324ba4c55160a620418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed923ffc2f3d25b3efbe3679e8d34478') in 0.018908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Ground_Snow_01_Normal.png
+  artifactKey: Guid(9406e25357b87624cb132d1b25b91b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Ground_Snow_01_Normal.png using Guid(9406e25357b87624cb132d1b25b91b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9473355f59c4af8ea60ee095f1afaacd') in 0.014678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Snow_Texture_Normal.png
+  artifactKey: Guid(80547c2138ab95e44b133efc70c435bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Snow_Texture_Normal.png using Guid(80547c2138ab95e44b133efc70c435bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13ac54f3f68c7de77dfee8e928c66e6') in 0.012839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.213775 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(1754adaafe32e3d44948707e250959ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(1754adaafe32e3d44948707e250959ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c89c8395e7f18fa93e71b92f34333e') in 0.023724 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2348 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.1 MB.
+System memory in use after: 158.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3186.
+Total: 1.958300 ms (FindLiveObjects: 0.216500 ms CreateObjectMapping: 0.099700 ms MarkObjects: 1.628300 ms  DeleteObjects: 0.013100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.148600 seconds.
   path: Assets/Art Assets/Terrain_Textures/Snow_Ground_Layer.terrainlayer
   artifactKey: Guid(c146698b454964b4b932317401f12ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Terrain_Textures/Snow_Ground_Layer.terrainlayer using Guid(c146698b454964b4b932317401f12ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5afcb0f4c5735e48238a247c52ebe8') in 0.052254 seconds 
+Start importing Assets/Art Assets/Terrain_Textures/Snow_Ground_Layer.terrainlayer using Guid(c146698b454964b4b932317401f12ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e70faaa18effa8b8e9cd7ef4b09727') in 0.042877 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Snow_Ground_2_Layer.terrainlayer
+  artifactKey: Guid(2225a7ac3784fc34093d7c01e93f6896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Snow_Ground_2_Layer.terrainlayer using Guid(2225a7ac3784fc34093d7c01e93f6896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca5202ec89cb49398f82e770dcb1f8f') in 0.022030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Art Assets/Terrain_Textures/GroundBarren_Layer.terrainlayer
+  artifactKey: Guid(a60b8f3e8c3315b499f191bce185cbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/GroundBarren_Layer.terrainlayer using Guid(a60b8f3e8c3315b499f191bce185cbb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fea734acb3c634b4775ea5fbebee85') in 0.021016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
   path: Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Layer.terrainlayer
   artifactKey: Guid(e64397d77bed0374898a944d6db52718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Layer.terrainlayer using Guid(e64397d77bed0374898a944d6db52718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fdb4982d7eff4310a28a44b7b11d20') in 0.010103 seconds 
+Start importing Assets/Art Assets/Terrain_Textures/Leaf_Pile_01_Layer.terrainlayer using Guid(e64397d77bed0374898a944d6db52718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca4f7a369e8e5a2baf4d81056c842f2') in 0.017034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Snow_Handpaint_Layer.terrainlayer
+  artifactKey: Guid(c778d243b4e1d9141beb24bc2dff0afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Snow_Handpaint_Layer.terrainlayer using Guid(c778d243b4e1d9141beb24bc2dff0afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48901d0f5743548c3913c4b655a655c7') in 0.011546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.707318 seconds.
+  path: Assets/Art Assets/Player-Textures/Albedo_Character 2.png
+  artifactKey: Guid(b1d7807e5ba499c4997779df3962a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Player-Textures/Albedo_Character 2.png using Guid(b1d7807e5ba499c4997779df3962a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7951b5c6bb656dce3ab3d6a77e06649') in 0.018356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 257.977204 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(1754adaafe32e3d44948707e250959ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(1754adaafe32e3d44948707e250959ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444c076ec57a6d74ee7c67aeeb158285') in 0.021311 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2343 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.6 MB.
+System memory in use after: 163.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3250.
+Total: 2.221700 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.098500 ms MarkObjects: 1.876500 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000873 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.794 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2342 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.6 MB.
+System memory in use after: 163.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3253.
+Total: 2.407500 ms (FindLiveObjects: 0.299900 ms CreateObjectMapping: 0.119900 ms MarkObjects: 1.971900 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2342 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.5 MB.
+System memory in use after: 163.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3256.
+Total: 2.244700 ms (FindLiveObjects: 0.219700 ms CreateObjectMapping: 0.122000 ms MarkObjects: 1.889900 ms  DeleteObjects: 0.011900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 863.088121 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Snow_Handpaint_Layer.terrainlayer
+  artifactKey: Guid(c778d243b4e1d9141beb24bc2dff0afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Snow_Handpaint_Layer.terrainlayer using Guid(c778d243b4e1d9141beb24bc2dff0afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3393413f6c161e99eebb96534e07ac3') in 0.031235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.028254 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(1754adaafe32e3d44948707e250959ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(1754adaafe32e3d44948707e250959ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7731e1fcc6f973716151429f45f237cb') in 0.027286 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.872 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2343 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.9 MB.
+System memory in use after: 169.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3304.
+Total: 2.315600 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.112600 ms MarkObjects: 1.922000 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.926960 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Snow_Handpaint_Layer.terrainlayer
+  artifactKey: Guid(c778d243b4e1d9141beb24bc2dff0afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Snow_Handpaint_Layer.terrainlayer using Guid(c778d243b4e1d9141beb24bc2dff0afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a942b853419abe3f14e097a09abb5a') in 0.029321 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
