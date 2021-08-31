@@ -25,14 +25,7 @@ public class Pickup : MonoBehaviour
     void Update()
     {
        
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            if (currPickup != null)
-            {
-                currPickup.GetComponent<Collectible>().CollectResource();
-            }
-            
-        }
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -41,18 +34,13 @@ public class Pickup : MonoBehaviour
         {
           
             currPickup = other.gameObject;
-            currPickup.GetComponentInChildren<Renderer>().material = selected;
+            currPickup.GetComponentInChildren<Collectible>().canCollect = true;
         }
-        else
-        {
-            currPickup.GetComponentInChildren<Renderer>().material = deselected;
-            currPickup = null;
-          
-        }
+        
     }
     private void OnTriggerExit(Collider other)
     {
-        currPickup.GetComponentInChildren<Renderer>().material = deselected;
+        currPickup.GetComponentInChildren<Collectible>().canCollect = false;
         currPickup = null;
        
         
