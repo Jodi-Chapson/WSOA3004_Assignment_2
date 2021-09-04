@@ -27,7 +27,6 @@ public class Pickup : MonoBehaviour
        
         
     }
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.GetComponent<Collectible>())
@@ -36,16 +35,27 @@ public class Pickup : MonoBehaviour
             currPickup = other.gameObject;
             currPickup.GetComponentInChildren<Collectible>().canCollect = true;
         }
-        
+        else
+        {
+            return;
+        }        
     }
     private void OnTriggerExit(Collider other)
     {
-        currPickup.GetComponentInChildren<Collectible>().canCollect = false;
-        currPickup = null;
-       
-        
-      
+        if (other.gameObject.GetComponent<Collectible>())
+        {
+            StartCoroutine(SetFalse());
+        }
+        else
+        {
+            return;
+        }
     }
-
+    IEnumerator SetFalse()
+    {
+        currPickup.GetComponentInChildren<Collectible>().canCollect = false;
+        yield return new WaitForSeconds(0.1f);
+        currPickup = null;
+    }
 
 }
