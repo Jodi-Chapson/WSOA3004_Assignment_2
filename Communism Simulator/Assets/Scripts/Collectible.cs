@@ -9,14 +9,35 @@ public class Collectible : MonoBehaviour
     ResourceManager rm;
     Transform player;
     public bool canCollect;
-    
+
+    [SerializeField]
+    ParticleSystem ps;
+
     private void Start()
     {
         rm = GameObject.Find("ResourceManager").GetComponent<ResourceManager>();
         player = GameObject.Find("Player").transform;
+        ps = GetComponentInChildren<ParticleSystem>();
+        ps.enableEmission = false;
     }
-   
 
+    private void Update()
+    {
+        if (canCollect)
+        {
+            Debug.Log(Vector3.Distance(this.transform.position, player.position));
+
+            if (Vector3.Distance(this.transform.position, player.position) < rm.collectionDistance)
+            {
+
+                ps.enableEmission = true;
+            }
+            else
+            {
+                ps.enableEmission = false;
+            }
+        }
+    }
     public void CollectResource()
     {
         if (resourcetype == 0)

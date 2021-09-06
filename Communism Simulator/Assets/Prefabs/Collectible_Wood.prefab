@@ -27,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3091860615255787319}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 12.21, y: 15.019, z: 2.52}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
@@ -93,10 +93,10 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3091860615255787319}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8140004, y: 0.21063974, z: 0.14940423}
+  m_Size: {x: 0.91, y: 0.21, z: 0.5}
   m_Center: {x: 0.0016748159, y: 0.044984, z: -0.0013372748}
 --- !u!114 &3091860615255787312
 MonoBehaviour:
@@ -110,8 +110,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40768682f72c4684b901f95c656d8614, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resourceNumber: 0
-  canCollect: 0
+  resourcetype: 0
+  canCollect: 1
+  ps: {fileID: 0}
 --- !u!1 &6587104846397777765
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,8 +397,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.15
-      minScalar: 0.05
+      scalar: 0.25
+      minScalar: 0.1
       maxCurve:
         serializedVersion: 2
         m_Curve:

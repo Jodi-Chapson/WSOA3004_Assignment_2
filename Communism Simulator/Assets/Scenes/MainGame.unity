@@ -164,6 +164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resourcetype: 1
   canCollect: 1
+  ps: {fileID: 0}
 --- !u!65 &22584174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -642,6 +643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resourcetype: 1
   canCollect: 1
+  ps: {fileID: 0}
 --- !u!65 &60863263
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18263,40 +18265,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3091860615255787312, guid: 4812061b88e7bff40bc0462323c2e21d,
-        type: 3}
-      propertyPath: canCollect
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3091860615255787319, guid: 4812061b88e7bff40bc0462323c2e21d,
         type: 3}
       propertyPath: m_Name
       value: Collectible_Wood (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3091860615255787319, guid: 4812061b88e7bff40bc0462323c2e21d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491185321586649687, guid: 4812061b88e7bff40bc0462323c2e21d,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.91
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491185321586649687, guid: 4812061b88e7bff40bc0462323c2e21d,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491185321586649687, guid: 4812061b88e7bff40bc0462323c2e21d,
-        type: 3}
-      propertyPath: m_Size.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491185321586649687, guid: 4812061b88e7bff40bc0462323c2e21d,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4812061b88e7bff40bc0462323c2e21d, type: 3}
@@ -22563,7 +22535,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1
+  orthographic size: 1.5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -29075,6 +29047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resourcetype: 1
   canCollect: 1
+  ps: {fileID: 0}
 --- !u!4 &7972666415309004969
 Transform:
   m_ObjectHideFlags: 0
