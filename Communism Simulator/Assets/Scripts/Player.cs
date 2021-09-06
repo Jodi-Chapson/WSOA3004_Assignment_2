@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
     public float movespeed = 3f;
     public float speedMod = 0.5f;
     public Animator playerAnim;
+    public Vector3 heading;
+    public float lerp;
 
     Vector3 forward, right;
 
@@ -34,6 +36,15 @@ public class Player : MonoBehaviour
         {
             playerAnim.SetBool("isMoving", false);
         }
+
+        Vector3 currentheading;
+        
+        currentheading.x = Mathf.Lerp(this.transform.forward.x, heading.x, lerp);
+        currentheading.y = Mathf.Lerp(this.transform.forward.y, heading.y, lerp);
+        currentheading.z = Mathf.Lerp(this.transform.forward.z, heading.z, lerp);
+
+        transform.forward = currentheading;
+
     }
 
     public void Move()
@@ -56,10 +67,12 @@ public class Player : MonoBehaviour
 
         
 
-        Vector3 heading = Vector3.Normalize(rightMove + upMove);
+        heading = Vector3.Normalize(rightMove + upMove);
         
         //rotates character
-        transform.forward = heading;
+        //transform.forward = heading;
+        
+        
         //moves character
         transform.position += rightMove;
         transform.position += upMove;

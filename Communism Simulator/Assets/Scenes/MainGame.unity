@@ -10438,6 +10438,8 @@ MonoBehaviour:
   movespeed: 0.7
   speedMod: 0.75
   playerAnim: {fileID: 0}
+  heading: {x: 0, y: 0, z: 0}
+  lerp: 0.4
 --- !u!1001 &1780623450
 PrefabInstance:
   m_ObjectHideFlags: 0
