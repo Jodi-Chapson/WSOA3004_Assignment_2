@@ -20,8 +20,8 @@ public class ResourceManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        wood.text = woodNum.ToString();
-        stone.text = stoneNum.ToString();
+        wood.text = woodNum + "/6";
+        stone.text = stoneNum + "/4";
         
     }
 }
