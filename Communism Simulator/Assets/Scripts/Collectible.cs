@@ -25,9 +25,9 @@ public class Collectible : MonoBehaviour
     {
         if (canCollect)
         {
-            Debug.Log(Vector3.Distance(this.transform.position, player.position));
+            //Debug.Log(Vector3.Distance(this.transform.position, player.position));
 
-            if (Vector3.Distance(this.transform.position, player.position) < rm.collectionDistance)
+            if (Vector3.Distance(this.transform.position, player.position) < rm.collectionDistance + 0.5)
             {
 
                 ps.enableEmission = true;
