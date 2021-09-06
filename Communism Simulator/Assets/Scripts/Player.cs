@@ -7,11 +7,14 @@ public class Player : MonoBehaviour
 
     public float movespeed = 3f;
     public float speedMod = 0.5f;
+    public Animator playerAnim;
 
     Vector3 forward, right;
 
     public void Start()
     {
+        playerAnim = this.GetComponentInChildren<Animator>();
+        
         forward = Camera.main.transform.forward;
         forward.y = 0;
         forward = Vector3.Normalize(forward);
@@ -25,6 +28,11 @@ public class Player : MonoBehaviour
         if (Input.GetKey("a") || Input.GetKey("d")|| Input.GetKey("w") || Input.GetKey("s"))
         {
             Move();
+            playerAnim.SetBool("isMoving", true);
+        }
+        else
+        {
+            playerAnim.SetBool("isMoving", false);
         }
     }
 
