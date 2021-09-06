@@ -239,3 +239,147 @@ System memory in use after: 112.3 MB.
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2933.
 Total: 3.430700 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.199100 ms MarkObjects: 2.939900 ms  DeleteObjects: 0.018500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1693.588264 seconds.
+  path: Assets/Art Assets/Misc/map.png
+  artifactKey: Guid(95c1ba8b3c1d7614badb6ab4565bc8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Misc/map.png using Guid(95c1ba8b3c1d7614badb6ab4565bc8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbad3abec8690e1c26c07ed1ff74898d') in 0.119591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.879108 seconds.
+  path: Assets/Art Assets/Player-Textures/Albedo_Character 1.png
+  artifactKey: Guid(f444081f750cf334bbf4ad2d16f0c6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Player-Textures/Albedo_Character 1.png using Guid(f444081f750cf334bbf4ad2d16f0c6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5862350b7904df69e3682f6d422ab9fc') in 0.044174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000570 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Blue_Ice_001/Blue_Ice_001_OCC.jpg
+  artifactKey: Guid(f2a225d32bb00da46972640adda8d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Blue_Ice_001/Blue_Ice_001_OCC.jpg using Guid(f2a225d32bb00da46972640adda8d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f179760b29eb30483fe8b1db7d648e19') in 0.058992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Blue_Ice_001/Blue_Ice_001_NORM.jpg
+  artifactKey: Guid(ce87915f0c0cc574b90bd1556e77e52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Blue_Ice_001/Blue_Ice_001_NORM.jpg using Guid(ce87915f0c0cc574b90bd1556e77e52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f1b761c213b3a1713484f94e9ee853') in 0.053461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Blue_Ice_001/Blue_Ice_001_ROUGH.jpg
+  artifactKey: Guid(24cb8d2f62c690547b2f818ff8a138aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Blue_Ice_001/Blue_Ice_001_ROUGH.jpg using Guid(24cb8d2f62c690547b2f818ff8a138aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c144b6d93b84d472962c0d2c618902fb') in 0.022922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Blue_Ice_001/Blue_Ice_001_COLOR.jpg
+  artifactKey: Guid(cf48dc38956838041ae945b477c517b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Blue_Ice_001/Blue_Ice_001_COLOR.jpg using Guid(cf48dc38956838041ae945b477c517b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caad98969c1e8c6a384c1f9cb0cfab21') in 0.019841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Art Assets/Terrain_Textures/Blue_Ice_001/Blue_Ice_001_DISP.png
+  artifactKey: Guid(e59f17b2f9896144a9ca3dbb75ccb1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Terrain_Textures/Blue_Ice_001/Blue_Ice_001_DISP.png using Guid(e59f17b2f9896144a9ca3dbb75ccb1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b5fa369f52603c7f12cddd25e6a4fb') in 0.020053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.603091 seconds.
+  path: Assets/Art Assets/Misc/block.png
+  artifactKey: Guid(1da35466cc73fb84aa6d77ecb3fd38b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art Assets/Misc/block.png using Guid(1da35466cc73fb84aa6d77ecb3fd38b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8558433a695f533a568221fe675483e8') in 0.098030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.810268 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(7f95fcb3b1d7a584aafa0065428f410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(7f95fcb3b1d7a584aafa0065428f410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e8c9cf53835993461ccff76080764c') in 0.010530 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001042 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.104 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2353 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 129.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3062.
+Total: 3.222000 ms (FindLiveObjects: 0.442600 ms CreateObjectMapping: 0.221700 ms MarkObjects: 2.524300 ms  DeleteObjects: 0.031800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3065.
+Total: 4.960100 ms (FindLiveObjects: 0.494900 ms CreateObjectMapping: 0.248500 ms MarkObjects: 4.179700 ms  DeleteObjects: 0.035100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.886174 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(7f95fcb3b1d7a584aafa0065428f410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(7f95fcb3b1d7a584aafa0065428f410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b8d1ee93fee885127f1ea623339e91') in 0.006037 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002277 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.109 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3068.
+Total: 2.929700 ms (FindLiveObjects: 0.427900 ms CreateObjectMapping: 0.163600 ms MarkObjects: 2.303600 ms  DeleteObjects: 0.033200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001150 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2345 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.6 MB.
+System memory in use after: 128.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 3071.
+Total: 3.319100 ms (FindLiveObjects: 0.533000 ms CreateObjectMapping: 0.214900 ms MarkObjects: 2.537600 ms  DeleteObjects: 0.032300 ms)
+
