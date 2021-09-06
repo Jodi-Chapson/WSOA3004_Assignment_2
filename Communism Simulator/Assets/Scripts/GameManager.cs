@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject map;
+    public GameObject map, endscreen;
+    public Player player;
+    public bool canEnd;
 
-    // Update is called once per frame
+    public void Start()
+    {
+        player = GameObject.Find("Player").GetComponent<Player>();
+    }
+
+
     void Update()
     {
         if(Input.GetKeyDown("m"))
@@ -18,5 +25,11 @@ public class GameManager : MonoBehaviour
         {
             map.SetActive(false);
         }
+    }
+
+    public void End()
+    {
+        player.canMove = false;
+        endscreen.SetActive(true);
     }
 }

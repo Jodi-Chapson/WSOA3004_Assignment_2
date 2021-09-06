@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public Animator playerAnim;
     public Vector3 heading;
     public float lerp;
+    public bool canMove;
 
     Vector3 forward, right;
 
@@ -23,14 +24,18 @@ public class Player : MonoBehaviour
 
 
         right = Quaternion.Euler(new Vector3(0, 90, 0)) * forward;
+        canMove = true;
     }
 
     public void Update()
     {
         if (Input.GetKey("a") || Input.GetKey("d")|| Input.GetKey("w") || Input.GetKey("s"))
         {
-            Move();
-            playerAnim.SetBool("isMoving", true);
+            if (canMove)
+            {
+                Move();
+                playerAnim.SetBool("isMoving", true);
+            }
         }
         else
         {
