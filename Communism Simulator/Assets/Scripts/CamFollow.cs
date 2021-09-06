@@ -12,7 +12,10 @@ public class CamFollow : MonoBehaviour
 
     [Header("Stats")]
     public Vector3 startPos;
-    public float verticalMod = 0.1f;
+    public float ymod;
+    public float xmod;
+    public float zmod;
+
 
     public bool canTurn = true;
     public void Start()
@@ -24,7 +27,7 @@ public class CamFollow : MonoBehaviour
     {
         if (camFollow)
         {
-            Vector3 target = new Vector3(targetplayer.transform.position.x + startPos.x + verticalMod, this.transform.position.y, targetplayer.transform.position.z + startPos.z + verticalMod);
+            Vector3 target = new Vector3(targetplayer.transform.position.x + xmod, startPos.y + ymod, targetplayer.transform.position.z + zmod);
             
 
             this.transform.position = target;
